@@ -30,6 +30,6 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   planeteer_calls.find do |x|
     binding.pry
-    x == valid_calls && x == 
+    x == valid_calls && x == "Earth!"
   end
 end
